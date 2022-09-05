@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>From Register Produk</title>
+  </head>
+  <body>
+    <form name="bukutamu" method="GET" action="">
+      <table border="0" align="center" cellpadding="15" cellspacing="5" width="30%">
+        <thead>
+          <th colspan="2" bgcolor="Gray">From Register Produk</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td width="40%"><label>Name Produk</label></td>
+            <td><input type="text" name="nama" value="" size="20" " /></td>
+          </tr>
+          <td valign="top">Jenis Produk</td>
+          <td>
+            <select name="produk">
+              <option value="" selected>-- pilih produk --</option>
+              <option value="buku">Buku</option>
+              <option value="pensil">Pensil</option>
+              <option value="penghapus">Penghapus</option>
+              <option value="pengaris">Pengaris</option>
+            </select>
+          </td>
+          <tr>
+            <td><label>Harga</label></td>
+            <td><input type="text" name="harga" value="" size="20" " /></td>
+          </tr>
+          <tr>
+            <td><label>Stok</label></td>
+            <td><input type="text" name="stok" value="" size="20" " /></td>
+          </tr>
+          <tr>
+            <td><label>Photo</label></td>
+            <td><input type="text" name="photo" value="" size="20" " /></td>
+          </tr>
+        </tbody>
+        <tfoot bgcolor="Gray">
+          <th colspan="2" align="center">
+            <input type="submit" name="kirim" value="kirim" />
+            <input type="reset" name="batal" value="batal" />
+          </th>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>
