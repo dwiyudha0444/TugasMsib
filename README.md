@@ -1,2 +1,2 @@
 # TugasMsib
-Tugas HTML,CSS,Boostrap
+Tugas HTML dan CSS
